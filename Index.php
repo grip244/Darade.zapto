@@ -1,7 +1,6 @@
 <?php
 session_start();
 require_once 'inc/dbconnect.php';
-fgfdgdf
 if(isset($_POST['btn-signup'])) {
 	
  $email = strip_tags($_POST['email']);
